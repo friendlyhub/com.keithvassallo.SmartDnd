@@ -27,6 +27,10 @@
   <developer id="com.keithvassallo">
     <name>Keith Vassallo</name>
   </developer>
+  <branding>
+    <color type="primary" scheme_preference="light">#FCD7B3</color>
+    <color type="primary" scheme_preference="dark">#312C3B</color>
+  </branding>
   <screenshots>
     <screenshot type="default">
       <caption>Recurring schedules, including windows that run past midnight</caption>
@@ -46,6 +50,14 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="0.1.1" date="2026-10-18">
+      <description>
+        <p>Fixed:</p>
+        <ul>
+          <li>Software stores such as FriendlyHub showed the app's banner as a plain white block. The app now declares its brand colours, so the banner uses the icon's peach in light mode and its navy in dark mode.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.1.0" date="2026-10-01">
       <description>
         <p>The first release of Smart DND for Linux.</p>
